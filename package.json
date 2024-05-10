@@ -1,0 +1,37 @@
+{
+  "name": "minty",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/minty.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "minty": "src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.1",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "chai": "^4.3.3",
+    "ethereum-waffle": "^3.3.0",
+    "ethers": "^5.0.31",
+    "hardhat": "^2.1.1"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^3.4.1",
+    "chalk": "^4.1.0",
+    "cids": "^1.1.6",
+    "commander": "^7.1.0",
+    "concurrently": "^6.0.0",
+    "getconfig": "^4.5.0",
+    "go-ipfs": "^0.8.0",
+    "inquirer": "^8.0.0",
+    "ipfs-http-client": "^49.0.4",
+    "it-all": "^1.0.5",
+    "json-colorizer": "^2.2.2",
+    "multiaddr": "^8.1.2"
+  }
+}
